@@ -1,0 +1,17 @@
+package:
+  name: flashdb
+  version: 0.1.1
+  vendor: Telink
+  description: Telink port of FlashDB
+  sdk: ^0.4.0
+module:
+  module_dir: FlashDB
+integrity:
+  .gitignore: 546a453ef564e80e002766591dc695b6ff0001827054f542a0b0fe96b86e295e
+  CMakeLists.txt: 3de5e0c3154de9bcfae26344c2a1df98986e420bab4715e84c4450ab45584ee5
+  Kconfig: 8e6df09167eaddfd39125cf85c6e4a052ce393ba74a8e0c7afce4d64a48e746a
+dependencies:
+  upstream:
+    git: https://github.com/armink/FlashDB.git
+    rev: 9f7ea2a438c097a13c275e9b1fb28f723717e9ec
+    path: repo
